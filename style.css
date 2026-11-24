@@ -1,0 +1,15 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #faf4e8; color: #382b23; font: 18px/1.6 Georgia, serif; }
+header { background: #783e30; color: #fff8ed; text-align: center; padding: 38px 20px; }
+header p { font: 13px Arial, sans-serif; letter-spacing: 3px; }
+h1 { font-size: clamp(32px, 5vw, 48px); margin: 8px 0; }
+main { max-width: 960px; margin: 32px auto; padding: 30px; background: #fffdf7; border: 1px solid #e3d5bf; border-radius: 12px; }
+h2 { color: #783e30; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 18px; }
+.recipe { display: block; padding: 24px; background: #f5e6cf; border-radius: 8px; text-decoration: none; color: #382b23; }
+.recipe span { font: bold 13px Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; }
+.recipe:hover { background: #eed6b4; }
+.back { color: #783e30; font-weight: bold; }
+li { margin-bottom: 7px; }
+footer { text-align: center; padding: 20px; color: #685347; }
+@media (max-width: 1000px) { main { margin: 24px 16px; } }
